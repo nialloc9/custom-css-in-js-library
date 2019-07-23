@@ -8,7 +8,7 @@ function App() {
   const style2 = { backgroundColor: "green", width: "200px", margin: "10px auto", padding: "10px", color: "white", textAlign: "center" };
 
   const StyledComponent = styled("div", style);
-  const StyledComponentTwo = styled("div", style2);
+  const StyledComponentTwo = styled("p", style2);
 
   return (
     <div>
